@@ -1,28 +1,14 @@
-# Project Plan
+# תוכנית עבודה (Plan) - אוטומציית סוכנים
 
-## Process Type
+## זרימת תהליך (Workflow)
+התהליך מנוהל בשיטה סדרתית (Sequential Process) בין 4 תחנות עבודה:
 
-Sequential Pipeline
+1. **תחנה 1: מחקר (Market Researcher)** - מקבל את שם המוצר, אוסף מפרטים טכניים, ומעביר את המידע לתחנה הבאה.
+2. **תחנה 2: כתיבה (Content Writer)** - מקבל את חומרי המחקר ומנסח מאמר שיווקי של 300 מילים.
+3. **תחנה 3: קידום אתרים (SEO Specialist)** - קורא את המאמר ומייצר תגיות Title ו-Meta Description אופטימליות.
+4. **תחנה 4: בקרת איכות (Quality Reviewer)** - סוקר את כל התוצרים, מוודא שאין שגיאות עובדתיות ומאשר את התוצר הסופי.
 
-## Agents
-
-1. Product Research Agent
-2. SEO Specialist Agent
-3. Content Writer Agent
-4. Quality Reviewer Agent
-
-## Workflow
-
-Product Research
-↓
-SEO Optimization
-↓
-Article Writing
-↓
-Quality Review
-↓
-Final Article
-
-## Expected Result
-
-SEO article ready for publication.
+## זמני ביצוע
+- שלב א': אפיון והקמת סביבת גיטהאב.
+- שלב ב': הרצת הקוד בענן וצילום תוצאות.
+- שלב ג': כתיבת דוח README והגשה במודל.
